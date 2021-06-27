@@ -18,7 +18,7 @@ This module was original made as part of a personal project which is why only a 
 
 ## Usage
 
-Keep in mind that *"Unauthenticated clients can make 60 requests per hour"*[1](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api#authentication).
+Keep in mind that *"Unauthenticated clients can make 60 requests per hour"* [1](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api#authentication).
 
 ```crystal
 require "github-repos"
