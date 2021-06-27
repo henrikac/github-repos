@@ -43,10 +43,10 @@ repos = Array(GitHub::Repo).new
 spawn do
   loop do
     mut.lock
-	repos = GitHub.fetch_repos("henrikac", ["pokeapi", "github-repos", "prettytable"])
-	mut.unlock
+    repos = GitHub.fetch_repos("henrikac", ["pokeapi", "github-repos", "prettytable"])
+    mut.unlock
 
-	sleep 5.minutes
+    sleep 5.minutes
   end
 end
 
